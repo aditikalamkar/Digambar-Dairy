@@ -1,0 +1,6 @@
+this.http.post('http://localhost:8081/logout', {}, {
+  headers: { Authorization: `Bearer ${localStorage.getItem('jwtToken')}` }
+});
+
+
+-while integrating logout api with angular pass the heaader

@@ -1,0 +1,14 @@
+# Ignore Eclipse/IDEA workspace files
+.metadata/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+bin/
+target/
+
+
+
+# Ignore temporary files
+*.tmp
